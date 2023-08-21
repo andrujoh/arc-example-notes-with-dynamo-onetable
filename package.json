@@ -10,7 +10,7 @@
   "dependencies": {
     "@architect/functions": "^5.4.0",
     "bcrypt": "^5.0.1",
-    "dynamo-db-local": "^5.0.1",
+    "dynamo-db-local": "^6.1.0",
     "dynamodb-onetable": "^2.6.2",
     "hashids": "^2.2.8",
     "onetable-migrate": "^1.1.7"
