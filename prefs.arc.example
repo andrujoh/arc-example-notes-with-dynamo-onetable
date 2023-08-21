@@ -1,0 +1,15 @@
+@sandbox
+ports
+  http 3399
+  tables 8002
+
+# The @env pragma is synced (and overwritten) by running arc env
+@env
+testing
+  NODE_ENV testing
+
+# staging
+  # Add staging env vars with: arc env --add --env staging NAME value
+
+# production
+  # Add production env vars with: arc env --add --env production NAME value

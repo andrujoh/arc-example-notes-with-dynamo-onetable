@@ -1,0 +1,27 @@
+{
+  "name": "arc-example-notes",
+  "version": "1.0.0",
+  "author": "Brian LeRoux <b@brian.io>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/architect-examples/arc-example-notes"
+  },
+  "dependencies": {
+    "@architect/functions": "^5.4.0",
+    "bcrypt": "^5.0.1",
+    "dynamo-db-local": "^5.0.1",
+    "dynamodb-onetable": "^2.6.2",
+    "hashids": "^2.2.8",
+    "onetable-migrate": "^1.1.7"
+  },
+  "scripts": {
+    "start": "npx arc sandbox",
+    "db:migrate": "node ./scripts/db/migrate",
+    "db:seed": "node ./src/db/seeds",
+    "start:dynamo:docker": "docker compose up"
+  },
+  "devDependencies": {
+    "@architect/architect": "^10.11.1"
+  }
+}
