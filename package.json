@@ -13,7 +13,7 @@
     "dynamo-db-local": "^5.0.1",
     "dynamodb-onetable": "^2.6.2",
     "hashids": "^2.2.8",
-    "onetable-migrate": "^1.1.7"
+    "onetable-migrate": "^1.2.0"
   },
   "scripts": {
     "start": "npx arc sandbox",
