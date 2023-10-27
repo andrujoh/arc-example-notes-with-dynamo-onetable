@@ -12,7 +12,7 @@
     "bcrypt": "^5.1.1",
     "dynamo-db-local": "^5.0.1",
     "dynamodb-onetable": "^2.6.2",
-    "hashids": "^2.2.8",
+    "hashids": "^2.3.0",
     "onetable-migrate": "^1.2.0"
   },
   "scripts": {
