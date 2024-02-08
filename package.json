@@ -8,7 +8,7 @@
     "url": "https://github.com/architect-examples/arc-example-notes"
   },
   "dependencies": {
-    "@architect/functions": "^5.4.0",
+    "@architect/functions": "^8.0.2",
     "bcrypt": "^5.1.1",
     "dynamo-db-local": "^5.0.1",
     "dynamodb-onetable": "^2.6.2",
